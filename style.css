@@ -295,3 +295,89 @@ body {
     padding: 30px;
   }
 }
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) { 
+.header {
+    flex-direction: column;
+  }
+
+  .contact ul {
+    padding: 0px;
+    text-align: center;
+  }
+
+  .Name {
+    width: 100%;
+  }
+
+  .contact {
+    width: 100%;
+  }
+
+  .summary {
+    flex-direction: column;
+  }
+
+  .picture {
+    width: 100%;
+  }
+
+  .introduction {
+    width: 100%;
+    height: auto;
+  }
+
+  .restofbody {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title {
+    width: 50%;
+  }
+
+  .skills {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .skills h2 {
+    position: relative;
+    left: 44%;
+    height: 20px;
+  }
+
+  .technical {
+    position: relative;
+    right: 90px;
+    margin-top: 50px;
+    width: 50%;
+  }
+
+  .technical h3 {
+    text-align: center;
+  }
+
+  .professional {
+    position: relative;
+    margin-top: 50px;
+    width: 50%;
+  }
+
+  .professional h3 {
+    text-align: center;
+  }
+
+  .footer ul {
+    padding: 0px;
+    text-align: center;
+  }
+
+  .footer li {
+    display: inline;
+    padding: 30px;
+  }
+}
